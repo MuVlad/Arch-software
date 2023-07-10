@@ -15,5 +15,9 @@ public class App {
         generator.openReward();
         generator = new NFTGenerator();
         generator.openReward();
+        generator = new BronzeGenerator();
+        generator.openReward();
+        generator = new BitcoinGenerator();
+        generator.openReward();
     }
 }
